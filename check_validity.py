@@ -9,6 +9,7 @@ from decouple import config
 
 LOG_FORMAT = "%(asctime)s [%(levelname)s] %(message)s"
 logging.basicConfig(stream=sys.stdout, level=logging.INFO, format=LOG_FORMAT)
+#logging.basicConfig(filename='/var/log/cert_renew.log',level=logging.INFO, format=LOG_FORMAT)
 
 cert_path = config("CERTIFICATE_PATH")
 renew_before = int(config("RENEW_BEFORE"))

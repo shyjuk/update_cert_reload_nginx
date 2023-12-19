@@ -1,7 +1,7 @@
 # Script to download new certificate based on the certificate expiry date.
 
-This script used Porkbun API to download the certificate. 
-https://porkbun.com/api/json/v3/documentation#SSL%20Retrieve%20Bundle%20by%20Domain
+This script used [Porkbun API](https://porkbun.com/api/json/v3/documentation#SSL%20Retrieve%20Bundle%20by%20Domain) to download the certificate. 
+
 
 1. Create an [API key](https://porkbun.com/account/api)
 2. Put the files in this directory into the NGINX server.
